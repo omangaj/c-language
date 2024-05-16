@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+clrscr();
+int a,z;
+printf("Enter ascii values a & z:");
+scanf("%d\t%d\t",&a,&z);
+while(a<=z)
+{
+ printf("%c\t",a);
+ a++;
+}
+getch();
+}

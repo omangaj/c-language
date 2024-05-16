@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+clrscr();
+int range,i,temp,rem,flag;
+printf("Enter range");
+scanf("%d",&range);
+for(i=1;i<=range;i++)
+{
+ temp=i;
+ flag=0;
+ while(temp!=0)
+ {
+ rem=temp%10;
+ if(rem==0)
+ {
+  flag=1;
+  break;
+ }
+  temp=temp/10;
+ }
+ if(flag==1)
+ {
+  printf("%d\t",temp);
+ }
+}
+getch();
+}

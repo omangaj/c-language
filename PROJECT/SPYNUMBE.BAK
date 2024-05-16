@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+clrscr();
+int n,ld,md,fd,sum,multi;
+printf("\nEnter 3 digit number\n");
+scanf("%d",&n);
+ld=n%10;
+md=(n/10)%10;
+fd=n/100;
+sum=ld+md+fd;
+multi=ld*md*fd;
+sum==multi?printf("This is spy number"):printf("This is not spy number");
+getch();
+}

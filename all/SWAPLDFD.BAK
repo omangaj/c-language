@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+void main(){
+clrscr();
+long int no,last,first,p,p1,count=0,temp;
+printf("\nEnter number\n");
+scanf("%ld",&no);
+temp=no;
+printf("\nBefore swapping digit %ld \n",no);
+while(no!=0)
+{
+no=no/10;
+++count;
+}
+no=temp;
+p=pow(10,--count);
+last=no%10;
+first=no/p;
+no=no/10;
+p1=pow(10,--count);
+no=no%p1;
+last=last*p;
+no=no*10;
+no=last+no+first;
+printf("\nAfter swapping digit %ld\n,no");
+getch();
+}

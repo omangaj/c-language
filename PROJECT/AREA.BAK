@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+int s1,area;
+clrscr();
+printf("\nEnter len of square\n");
+scanf("%d",&s1);
+area=s1*s1;
+printf("\nArea of square is=%d\n",area);
+getch();
+}

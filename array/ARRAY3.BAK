@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+clrscr();
+int a[10],i,oddsum=0,evensum=0;
+printf("Enter ten values in array:\n");
+for(i=0;i<10;i++)
+{
+ scanf("%d",&a[i]);
+}
+for(i=0;i<10;i++)
+{
+ if(a[i]%2==0)
+ {
+ evensum=evensum+a[i];
+ }
+ else
+ {
+ oddsum=oddsum+a[i];
+ }
+}
+printf("Sum of all even in array:%d",evensum);
+printf("\nSum od all odd in array:%d",oddsum);
+
+getch();
+}

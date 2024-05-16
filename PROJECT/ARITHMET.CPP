@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+clrscr();
+int a,b,c,d,e,f,g;
+printf("\nEnter two values a&b\n");
+scanf("%d%d",&a,&b);
+printf("\nAddition of a & b=%d\n",a+b);
+printf("\nSubtraction of a & b=%d\n",a-b);
+printf("\nMultiply of a & b=%d\n",a*b);
+printf("\nDivision of a & b=%d\n",a/b);
+printf("\nModule of a & b=%d\n",a%b);
+getch();
+}

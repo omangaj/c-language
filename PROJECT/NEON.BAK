@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+clrscr();
+int n,sqr,sum;
+printf("\nEnter any number in 1 yo 9 \n");
+scanf("%d",&n);
+sqr=n*n;
+sum=sqr%10+sqr/10;
+sum==n?printf("This is a neon number"):printf("Thiss is not a neon number");
+getch();
+}

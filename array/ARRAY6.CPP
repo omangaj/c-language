@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int a[]={1,1,1,2,2,3,3,3,4,4,5,5,6},i,count=1;
+	for(i=0;i<13;i++)
+	{
+ 		if(a[i]==a[i+1])
+ 		{
+  		count++;
+ 		}
+ 		else
+ 		{
+  		printf("\n%d====>%d",a[i],count);
+  		count=1;
+ 		}
+	}
+return 0;
+}

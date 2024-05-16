@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+clrscr();
+char  i='a';
+printf("\nAlphabet are a to z:");
+while
+(i<='z')
+{
+printf("\n%c",i);
+i++;
+}
+getch();
+}

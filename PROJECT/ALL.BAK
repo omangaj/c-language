@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+int a=2;
+char ch='A';
+float f=3.14f;
+double d=2.34647;
+long int b=1234545;
+long double s=1.2345589985;
+printf("\na=%d\n",a);
+printf("\nch=%c\n",ch);
+printf("\nf=%f\n",f);
+printf("\nd=%lf\n"d);
+printf("\nb=%ld\n",b);
+printf("\ns=%Lf\n",s);
+getch();
+}

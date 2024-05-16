@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+clrscr();
+int a[10],i,j,s;
+printf("Enter size of array:");
+scanf("%d",&s);
+printf("\nEnter value in array:"\n);
+for(i=0,i<s,i++)
+scanf("%d",&a[i]);
+printf("\nvalue in array:\n");
+for(i=0,i<s,i++)
+printf("%d",a[i]);
+
+printf("inversion pair in array:");
+for

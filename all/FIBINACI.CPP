@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+clrscr();
+int limit,f1=0,f2=1,fib,skey,flag;
+printf("search number");
+scanf("%d",&skey);
+printf("Enter limit\n");
+scanf("%d",&limit);
+printf("%d %d ",f1,f2);
+while(limit!=0)
+{
+fib=f1+f2;
+f1=f2;
+f2=fib;
+printf("%d ",fib);
+if(skey==fib)
+{
+ flag=1;
+}
+limit--;
+}
+if(flag=1)
+{
+ printf("\npresent");
+}
+else
+{
+ printf("\nnot present");
+}
+getch();
+}

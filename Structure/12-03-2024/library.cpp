@@ -1,0 +1,31 @@
+#include<stdio.h>
+struct library
+{
+	int id,price;
+	char name[10],author[10];
+};
+int main()
+{
+	struct library lib[5];
+	int i;
+	for(i=0;i<5;i++)
+	{
+		printf("\nEnter book id name price and auther name:\n");
+		scanf("%d",&lib[i].id);
+		_flushall();
+		gets(lib[i].name);
+		_flushall();
+		scanf("%d",&lib[i].price);
+		_flushall();
+		gets(lib[i].author);
+	}
+
+	printf("\nlibrary is\n");
+	printf("id	name	price	author");
+	for(i=0;i<5;i++)
+	{
+		printf("\n%d	%s	%d	%s" ,lib[i].id,lib[i].name,lib[i].price,lib[i].author);
+	}
+	
+	return 0;
+}

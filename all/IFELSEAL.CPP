@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+clrscr();
+char c;
+printf("\nEnter value\n");
+scanf("%c",&c);
+if (c>=65&&c<=90 || c>=97&&c<=122)
+{
+ printf("This is a alphabet");
+}
+else
+{
+ printf("This is not a alphabet");
+}
+getch();
+}

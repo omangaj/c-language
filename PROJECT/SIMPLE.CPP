@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+clrscr();
+float p,total,r,t,rate,i;
+printf("\nEnter principle amount,rate & time\n");
+scanf("%f%f%f",&p,&r,&t);
+i=(p*r*t)/100;
+total=p+i;
+printf("\ntotal=%f\n",total);
+getch();
+}

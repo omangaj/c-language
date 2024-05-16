@@ -1,0 +1,39 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int a[10],b[10],i,j=0,s;5
+
+	printf("Enter size of array:");
+	scanf("%d",&s);
+	printf("Enter values in array:\n");
+	for(i=0;i<s;i++)
+ 		scanf("%d",&a[i]);
+ 		
+	printf("array a is:\n");
+	for(i=0;i<s;i++)
+ 		printf("%d\t",a[i]);
+	j=0;
+	for(i=0;i<s;i++)
+	{
+ 		if(a[i]>0||a[i]<0)
+ 		{
+  			b[j]=a[i];
+  			j++;
+ 		}
+	}
+	for(i=0;i<s;i++)
+	{
+ 		if(a[i]==0)
+ 		{
+  			b[j]=0;
+  			j++;
+ 		}
+	}
+	printf("\nnew array is:\n");
+	for(i=0;i<s;i++)
+	{
+ 		printf("%d\t",b[i]);
+	}
+return 0;
+}

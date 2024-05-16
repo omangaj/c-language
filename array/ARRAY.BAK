@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+clrscr();
+int a[5],i;
+printf("Enter five values in array:\n");
+for(i=0;i<5;i++)
+{
+ scanf("%d",&a[i]);
+}
+printf("Values in array:\n");
+for(i=0;i<5;i++)
+{
+ printf("%d\t",a[i]);
+}
+getch();
+}
